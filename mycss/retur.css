@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+#header{
+	margin-bottom: 20px;
+}
+#cari{
+	height: 25px;
+	width: 300px;
+	display: block;
+	border: thin solid #CCC;
+	float: left;
+	font-weight: bold;
+	color: #000;
+}
+#hasil_cari{
+	height: 70px;
+	width: 700px;
+	display: block;
+	border: thin solid #CCC;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	text-align: left;
+	padding-top:15px;
+	margin-top:20px;
+}
+#data{
+	height: 300px;
+	margin-top: 20px;
+	border: medium inset #CCC;
+	padding-top: 20px;
+	width: 98%;
+	padding-right: 10px;
+	padding-left: 10px;
+	float: left;
+}
+#detail_request {
+	height: 350px;
+	width: 98%;
+	border: medium outset #CCC;
+	overflow: auto;
+	text-align: center;
+	margin-top: 10px;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	float: left;
+}
+.label {
+	height: 15px;
+	width: 100px;
+	float: left;
+	display: block;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+}
+input {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+}
+#title {
+	height: 25px;
+	width: 350px;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-left: 30px;
+	margin-bottom: 25px;
+	color: #000;
+}
+#tabel_item {
+	border: thin solid #CCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+}
+.tr_item{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 5pt;
+	font-weight: bold;
+  background-color: #7190E0;
+  background: -webkit-linear-gradient(top,#EFF5FF 0,#7190E0 100%);
+  background: -moz-linear-gradient(top,#EFF5FF 0,#7190E0 100%);
+  background: -o-linear-gradient(top,#EFF5FF 0,#7190E0 100%);
+  background: linear-gradient(to bottom,#EFF5FF 0,#7190E0 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#EFF5FF,endColorstr=#7190E0,GradientType=0);
+}
