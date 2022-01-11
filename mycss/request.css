@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+#header{
+	margin-bottom: 20px;
+}
+#cari{
+	height: 25px;
+	width: 320px;
+	display: block;
+	border: thin solid #CCC;
+	float: left;
+	font-weight: bold;
+	color: #000;
+	background-color: #FFF;
+	padding: 2px;
+}
+#proses{
+	height: 70px;
+	width: 95%;
+	display: block;
+	border: thin none #CCC;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	text-align: left;
+}
+#data{
+	height: 80px;
+	margin-top: 20px;
+	border: thin inset #CCC;
+	width: 98%;
+	background-color: #FFF;
+	float: left;
+	padding-top: 20px;
+}
+#detail_request {
+	height: 300px;
+	width: 97%;
+	border: thin outset #CCC;
+	overflow: auto;
+	text-align: center;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-left: 1%;
+	padding-right: 1%;
+	background-color: #FFF;
+	float: left;
+}
+.label {
+	height: 15px;
+	width: 100px;
+	float: left;
+	display: block;
+}
+input {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+}
+#title {
+	height: 25px;
+	width: 350px;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-left: 30px;
+	margin-bottom: 25px;
+	color: #000;
+}
+#tabel_item {
+	border: thin solid #CCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+}
+.tr_item{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 5pt;
+	font-weight: bold;
+  background-color: #7190E0;
+  background: -webkit-linear-gradient(top,#EFF5FF 0,#7190E0 100%);
+  background: -moz-linear-gradient(top,#EFF5FF 0,#7190E0 100%);
+  background: -o-linear-gradient(top,#EFF5FF 0,#7190E0 100%);
+  background: linear-gradient(to bottom,#EFF5FF 0,#7190E0 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#EFF5FF,endColorstr=#7190E0,GradientType=0);
+}
